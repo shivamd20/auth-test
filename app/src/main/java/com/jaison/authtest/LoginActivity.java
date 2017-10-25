@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
         final TextView tv = (TextView) findViewById(R.id.textview);
 
         ProjectConfig config = new ProjectConfig.Builder()
-                .setProjectName("projectName")
+                .setProjectName("avatar99")
                 .build();
 
         Hasura.setProjectConfig(config)
